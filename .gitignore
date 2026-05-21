@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local env (future-proof — no env files exist today, but forkers may add them)
+.env
+.env.local
+.env.*.local
+
+# Claude Code local state
+.claude/SESSION_SUMMARY.md
+.claude/settings.local.json
+
+# Working plans (per-user iteration artifacts)
+plans/*.md
+!plans/.gitkeep

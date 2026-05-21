@@ -1,0 +1,28 @@
+# PM OS publishing configuration.
+#
+# These are the defaults used by /publish-to-jira, /publish-to-confluence,
+# and /update-on-confluence. PRD frontmatter values (jira.project_key,
+# confluence.space_id, etc.) override these per-PRD when non-empty.
+#
+# Filled by /setup-pm-os. Edit by hand if you ever need to change defaults.
+
+atlassian:
+  # Your Atlassian site host — the FULL host including `.atlassian.net`,
+  # not just the site slug. No protocol, no trailing slash.
+  # Example: yoursite.atlassian.net
+  # (NOT: "yoursite", "https://yoursite.atlassian.net/", or "yoursite.atlassian.net/jira")
+  domain: ""
+
+jira:
+  # Default Jira project key for new PRDs.
+  # Example: PROJ — used when a PRD's jira.project_key is empty.
+  default_project_key: ""
+
+confluence:
+  # Default Confluence space ID for new PRDs.
+  # Example: 123456 — used when a PRD's confluence.space_id is empty.
+  default_space_id: ""
+
+  # Optional default parent page for new PRDs. Leave empty to publish
+  # at the top of the space.
+  default_parent_id: ""
