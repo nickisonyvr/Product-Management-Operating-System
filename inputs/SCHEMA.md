@@ -42,11 +42,18 @@ Define your own canonical feature slugs here. Use kebab-case (e.g. `user-onboard
 
 | Slug | Product Area |
 |------|-------------|
-| `auth` | Authentication, sign-up, login |
+| `mcp-in-fme-flow` | MCP server builder in FME Flow — exposing workspaces as AI-accessible tools |
+| `fme-organizations` | FME Organizations — self-serve licensing, user, and subscription management |
+| `fme-flow-automations` | FME Flow Automations — event-triggered and scheduled workflow automation |
+| `fme-flow-web-apps` | FME Flow Web Apps / Flow Apps — no-code self-serve data products |
+| `fme-flow-data-virtualization` | FME Flow Data Virtualization — OpenAPI-based data exposure |
+| `fme-flow-streams` | FME Flow Streams — real-time data stream processing |
+| `fme-hub` | FME Hub — community marketplace for custom FME content |
+| `fme-account` | FME Account / Safe Account — unified identity and authentication |
+| `fme-form-authoring` | FME Form workspace authoring — transformers, canvas, inspection tools |
+| `fme-form-ai-assist` | FME Form AI Assist — real-time authoring suggestions |
+| `licensing` | Licensing and serial number management |
 | `onboarding` | First-run experience and setup flows |
-| `billing` | Pricing, subscriptions, invoicing |
-| `reporting` | Dashboards, analytics, exports |
-| `integrations` | Third-party integrations |
 | `admin` | Admin settings, permissions, team management |
 
 ## Common Tags
