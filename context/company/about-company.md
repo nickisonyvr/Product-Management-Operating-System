@@ -1,4 +1,4 @@
-# About [Your Company]
+# About Safe Software
 
 > This file holds your company's high-level context that AI agents read before generating any document. Fill in placeholders with your own content; delete sections you don't need.
 
@@ -10,10 +10,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Founded** | [Year] |
-| **Headquarters** | [City, Country] |
+| **Founded** | 1993 |
+| **Headquarters** | Surrey, BC |
 | **Offices** | [List locations] |
-| **Employees** | [Approximate count] |
+| **Employees** | ~350 |
 | **Funding** | [Total raised or "Bootstrapped" / "Public"] |
 | **Customers** | [Approximate count or notable logos] |
 

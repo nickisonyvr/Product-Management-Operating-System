@@ -11,18 +11,18 @@ atlassian:
   # not just the site slug. No protocol, no trailing slash.
   # Example: yoursite.atlassian.net
   # (NOT: "yoursite", "https://yoursite.atlassian.net/", or "yoursite.atlassian.net/jira")
-  domain: ""
+  domain: "safesoftware.atlassian.net"
 
 jira:
   # Default Jira project key for new PRDs.
   # Example: PROJ — used when a PRD's jira.project_key is empty.
-  default_project_key: ""
+  default_project_key: "IDEA"
 
 confluence:
   # Default Confluence space ID for new PRDs.
   # Example: 123456 — used when a PRD's confluence.space_id is empty.
-  default_space_id: ""
+  default_space_id: "4521991"
 
   # Optional default parent page for new PRDs. Leave empty to publish
   # at the top of the space.
-  default_parent_id: ""
+  default_parent_id: "4522041"
